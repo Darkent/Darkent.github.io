@@ -108,10 +108,9 @@ main {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  -ms-grid-columns: (minmax(180px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   justify-items: center;
-  row-gap: 1em;
 }
 
 .products .products__list {
@@ -125,7 +124,7 @@ main {
   border-radius: .5em;
   -webkit-box-shadow: 0.05em 0.3em 0.3rem 0.001rem #d5d5d5;
           box-shadow: 0.05em 0.3em 0.3rem 0.001rem #d5d5d5;
-  width: 150px;
+  width: 170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
